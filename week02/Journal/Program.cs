@@ -1,9 +1,10 @@
-using System;
-
 class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello World! This is the Journal Project.");
+        Journal theJournal = new Journal();
+        PromptGenerator promptGenerator = new PromptGenerator();
+
+        Console.WriteLine("Welcome to the Journal Program!");
     }
 }
