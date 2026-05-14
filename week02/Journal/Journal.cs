@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 
 public class Journal
@@ -6,21 +7,24 @@ public class Journal
 
     public void AddEntry(Entry newEntry)
     {
-        
+        _entries.Add(newEntry);
     }
 
     public void DisplayAll()
     {
-        
+        foreach (Entry entry in _entries)
+        {
+            entry.Display();
+        }
     }
 
     public void SaveToFile(string file)
     {
-        
+        // Stub for future implementation
     }
 
     public void LoadFromFile(string file)
     {
-        
+        // Stub for future implementation
     }
 }
