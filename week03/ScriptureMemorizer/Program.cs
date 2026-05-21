@@ -1,7 +1,7 @@
 using System;
-
 class Program
 {
+
     static void Main(string[] args)
     {
         // Creativity / Exceeds Requirements:
@@ -27,6 +27,7 @@ class Program
             {
                 scripture.HideRandomWords(3);
             }
+            
         }
         Console.Clear();
         Console.WriteLine(scripture.GetDisplayText());
